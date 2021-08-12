@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Muli", sans-serif;
+}
+
+.navbar{
+  background-color: #fff !important;
+}
+
+.navbar-brand{
+  font-size: 20px !important;
+  color:#565387 !important ;
+}
+
+.logoformat{
+  font-size: 40px !important;
+}
+.brandname{
+  font-size: 2.9rem !important;
+  color:#565387 !important ;
+}
+
+.contentfont{
+  font-size: 25px !important;
+}
+.navbar a{
+  font-size: 1.3rem !important;
+  text-transform: capitalize;
+}
+
+.menu-aactive{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar a:hover{
+  color:#3498db !important;
+}
+
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both !important;
+}
+
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(5px);
+  }
+  100%{
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes up-down{
+  0%{
+    transform: translateY(5px);
+  }
+  100%{
+    transform: translateY(-5px);
+  }
+}
+
+.cardstyle{
+  width: 18rem;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 67% !important;
+  margin: 20% auto !important;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: .3rem;
+  outline: 0;
+}
+
+.gender{
+  float:left;
+}
+
+.bgcolor{
+  background-color: #565387 !important;
+}
+
+.modal-title{
+  font-weight: 600;
+  color:white;
+}
